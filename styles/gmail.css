@@ -1,0 +1,12 @@
+/* Hides the ads in the Gmail web app. */
+
+/* Applies to urls on the domain "mail.google.com" */
+
+.adC { display:none; }
+.mq { display:none; }
+.z0DeRc { display:none; } 
+.oM { display:none; }
+.u7 { display:none;}
+.nH.PS { display:none; }
+.ao8 table tr td.Bu + td.Bu { display:none; }
+td.Bu.yPPMxf { display:none;}
