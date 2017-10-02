@@ -40,6 +40,10 @@
 
 /* ---- Less space ---- */
 
+.section_day {
+    margin-bottom: 1px!important;
+}
+
 .project_header {
     padding-bottom: 1px!important
 }
@@ -53,7 +57,9 @@
     width: 12px;
     margin-left: -12px
 }
-.task_item td {
+.task_item td, 
+#agenda_view .checker,
+#agenda_view .column_project{
     padding-top: 1px;
     padding-bottom: 1px
 }
@@ -87,13 +93,13 @@
     padding-bottom: 0!important
 }
 
-#editor .action_add_item, .add_task {
+#editor .action_add_item, .add_task, .agenda_add_task {
     line-height: 1.2em!important;
     height: 1.2em!important;
     visibility:hidden;
 }
 
-.current_editor .action_add_item, .current_editor .add_task {
+.current_editor .action_add_item {
     visibility: visible!important;
 }
 
@@ -254,4 +260,3 @@ a.action .icon:hover {
 #labels_list_holder {
   display:inline!important;
 }*/
-
