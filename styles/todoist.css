@@ -1,0 +1,257 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/* ---- Due date labels ---- */
+
+#content ul.items .task_item .div_due_date span {
+    padding: 1px 4px;
+    border-radius: 2px;
+    border: 0px none !important;
+    color: #485e55;
+}
+#content ul.items .task_item .div_due_date .date_future {
+    background-color: #F0DE7D;
+}
+#content ul.items .task_item .div_due_date .date_overdue {
+    background-color: #db4641;
+    color: white;
+}
+#content ul.items .task_item .div_due_date .date_today {
+    background-color: #268bd2;
+    color: white;
+}
+/* ----- Project titles ----- */
+
+#content h2 * {
+    font-family: sans-serif;
+}
+#content h2 .h2_date {
+    font-style: italic;
+}
+#content h2.project_header * {
+    color: #073642 !important;
+    font-size: 1.3rem;
+}
+#content ul.items .task_item {
+    margin: 0rem;
+    border: 1px solid transparent;
+    padding: 1px;
+    opacity: 0.9;
+}
+
+/* ---- Less space ---- */
+
+.project_header {
+    padding-bottom: 1px!important
+}
+.section_header {
+    padding: 0 0 1px!important
+}
+#editor .items li {
+    padding: 0 1px
+}
+.invisible_space {
+    width: 12px;
+    margin-left: -12px
+}
+.task_item td {
+    padding-top: 1px;
+    padding-bottom: 1px
+}
+.agenda_checker,
+.checker {
+    padding-right: 7px
+}
+.note_icon {
+    padding: 1px
+}
+.task_item td.menu {
+    padding-top: 1px!important;
+    padding-bottom: 1px!important
+}
+.task_item .task_content_item {
+    font-size: 14px
+}
+.drag_and_drop_handler {
+    margin-left: -15px;
+    padding-top: 0
+}
+.project_editor_instance {
+    margin-bottom: 0px;
+    padding-bottom: 0px
+}
+#editor .controller {
+    padding: 5px
+}
+.controller.actions.pe_controller {
+    padding-top: 0 !important;
+    padding-bottom: 0!important
+}
+
+#editor .action_add_item, .add_task {
+    line-height: 1.2em!important;
+    height: 1.2em!important;
+    visibility:hidden;
+}
+
+.current_editor .action_add_item, .current_editor .add_task {
+    visibility: visible!important;
+}
+
+.history_icon {
+    margin-top:0!important;
+}
+
+#agenda_view ul {
+    margin-bottom: 0!important
+}
+#agenda_view .day_holder {
+    margin-bottom: 0!important
+}
+#top_filters {
+    margin: 0;
+    padding: 0;
+}
+#left_menu_tabs {
+    margin-top: 5pt;
+}
+.history_ {
+    margin-top: 0!important
+}
+a.action .icon,
+a.action .icon:hover {
+    font-size: 8px
+}
+.generic_left_list li table td {
+    padding: 1px!important
+}
+.generic_left_list .drag_and_drop_handler {
+    padding-top: 0
+}
+.generic_left_list .arrow {
+    margin-top: 0
+}
+.drag_and_drop_handler.extra_arrow_marigin {
+    margin-left: -38px
+}
+#agenda_view .project {
+    padding-top: 1px;
+    padding-bottom: 1px
+}
+#agenda_view .view_header {
+    margin: 0 0 10px
+}
+#agenda_view .day_holder,
+#agenda_view .section_overdue {
+    margin-bottom: 15px
+}
+.subsection_header {
+    border-bottom: 0
+}
+#editor .arrow,
+#editor .drag_and_drop_handler {
+    margin-top: 1px
+}
+
+/* no line wrap for project names */
+#project_list_holder .name span {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    display: inline-block
+}
+
+/* counter is right-aligned for projects */
+#project_list_holder .name .counter_count {
+	float:right;
+}
+
+/* hide context menu icon for projects */
+#project_list_holder .items .icon {
+    width:0!important;
+}
+
+/* decrease the indentation */
+
+.generic_left_list .indent_2 {
+    padding-left: 15px !important;
+}
+.generic_left_list .indent_3 {
+    padding-left: 30px !important;
+}
+.generic_left_list .indent_4 {
+    padding-left: 45px !important;
+}
+
+/* adjust size of indented project names */
+.generic_left_list .indent_1 .name span {
+        width: 202px;
+}
+
+.generic_left_list .indent_2 .name span {
+        width: 187px;
+}
+
+.generic_left_list .indent_3 .name span {
+        width: 172px;
+}
+
+.generic_left_list .indent_4 .name span {
+        width: 157px;
+}
+
+/* make side menu items smaller */
+
+.name {
+    line-height: 18px!important;
+}
+
+/* make the side menu wider */
+#left_menu {
+    width:260px!important;
+    padding-left:25px;
+}
+
+#list_holder {
+  width:250px!important;
+}
+
+/* remove spacing between color icon and menu items */
+.td_separator {
+    width:0!important;
+    padding:0!important;
+}
+.td_color {
+    min-width:0!important;
+}
+
+/* hide inspiration ("enjoy your day.") message */
+
+.inspiration {
+    display:none
+}
+
+/* hide today and 7 day view */
+/*
+#top_filters .filter {
+    display: none
+}
+
+#filter_inbox {
+    display:inherit !important
+}*/
+/* right menu */
+/*
+#right_menu {
+ top:60pt;
+ position: fixed;
+ margin-left:730pt;
+}
+
+#filters_list_holder {
+  display:inline!important;
+}
+
+#labels_list_holder {
+  display:inline!important;
+}*/
+
