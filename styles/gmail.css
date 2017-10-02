@@ -1,6 +1,6 @@
-/* Applies to urls on the domain "mail.google.com" */
+/* Hides the ads in the Gmail web app. */
 
-/* Hide the ads in the Gmail web app. */
+/* Applies to urls on the domain "mail.google.com" */
 
 .adC { display:none; }
 .mq { display:none; }
@@ -9,21 +9,4 @@
 .u7 { display:none;}
 .nH.PS { display:none; }
 .ao8 table tr td.Bu + td.Bu { display:none; }
-td.Bu.yPPMxf { display:none;}
-
-.wIFnie,
-.uXhw3b,
-.ap0,
-.l2
-
-{ display: none; }
-
-/* Hide each of the Google+ icons */
-
-div.gb_7a.gb_Ce.gb_R.gb_Be.gb_X.gb_T{ display: none !important; }
-
-/* Hide google logo for printing */
-
-.bodycontainer > table {
-    display: none;
-}
+td.Bu.y3 { display:none;}
