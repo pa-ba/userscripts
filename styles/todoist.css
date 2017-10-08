@@ -236,6 +236,10 @@ a.action .icon:hover {
     display:none
 }
 
+.completed_today_holder {
+    display:none;
+}
+
 /* hide today and 7 day view */
 /*
 #top_filters .filter {
