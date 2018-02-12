@@ -1,5 +1,10 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+/* hide today and 7 days view */
+
+#top_filters li.filter:nth-child(2), #top_filters li.filter:nth-child(3) {
+    display: none;
+}
 /* ---- Due date labels ---- */
 
 #content ul.items .task_item .div_due_date span {
@@ -37,13 +42,11 @@
     padding: 1px;
     opacity: 0.9;
 }
-
 /* ---- Less space ---- */
 
 .section_day {
     margin-bottom: 1px!important;
 }
-
 .project_header {
     padding-bottom: 1px!important
 }
@@ -57,9 +60,9 @@
     width: 12px;
     margin-left: -12px
 }
-.task_item td, 
+.task_item td,
 #agenda_view .checker,
-#agenda_view .column_project{
+#agenda_view .column_project {
     padding-top: 1px;
     padding-bottom: 1px
 }
@@ -92,21 +95,19 @@
     padding-top: 0 !important;
     padding-bottom: 0!important
 }
-
-#editor .action_add_item, .add_task, .agenda_add_task {
+#editor .action_add_item,
+.add_task,
+.agenda_add_task {
     line-height: 1.2em!important;
     height: 1.2em!important;
-    visibility:hidden;
+    visibility: hidden;
 }
-
 .current_editor .action_add_item {
     visibility: visible!important;
 }
-
 .history_icon {
-    margin-top:0!important;
+    margin-top: 0!important;
 }
-
 #agenda_view ul {
     margin-bottom: 0!important
 }
@@ -157,25 +158,24 @@ a.action .icon:hover {
 #editor .drag_and_drop_handler {
     margin-top: 1px
 }
-
 /* no line wrap for project names */
+
 #project_list_holder .name span {
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     display: inline-block
 }
-
 /* counter is right-aligned for projects */
+
 #project_list_holder .name .counter_count {
-	float:right;
+    float: right;
 }
-
 /* hide context menu icon for projects */
-#project_list_holder .items .icon {
-    width:0!important;
-}
 
+#project_list_holder .items .icon {
+    width: 0!important;
+}
 /* decrease the indentation */
 
 .generic_left_list .indent_2 {
@@ -187,59 +187,51 @@ a.action .icon:hover {
 .generic_left_list .indent_4 {
     padding-left: 45px !important;
 }
-
 /* adjust size of indented project names */
+
 .generic_left_list .indent_1 .name span {
-        width: 202px;
+    width: 202px;
 }
-
 .generic_left_list .indent_2 .name span {
-        width: 187px;
+    width: 187px;
 }
-
 .generic_left_list .indent_3 .name span {
-        width: 172px;
+    width: 172px;
 }
-
 .generic_left_list .indent_4 .name span {
-        width: 157px;
+    width: 157px;
 }
-
 /* make side menu items smaller */
 
 .name {
     line-height: 18px!important;
 }
-
 /* make the side menu wider */
+
 #left_menu {
-    width:260px!important;
-    padding-left:25px;
+    width: 260px!important;
+    padding-left: 25px;
 }
-
 #list_holder {
-  width:250px!important;
+    width: 250px!important;
 }
-
 /* remove spacing between color icon and menu items */
+
 .td_separator {
-    width:0!important;
-    padding:0!important;
+    width: 0!important;
+    padding: 0!important;
 }
 .td_color {
-    min-width:0!important;
+    min-width: 0!important;
 }
-
 /* hide inspiration ("enjoy your day.") message */
 
 .inspiration {
-    display:none
+    display: none
 }
-
 .completed_today_holder {
-    display:none;
+    display: none;
 }
-
 /* hide today and 7 day view */
 /*
 #top_filters .filter {
