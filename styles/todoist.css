@@ -1,182 +1,86 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
 /* hide today and 7 days view */
 
 #top_filters li.filter:nth-child(2), #top_filters li.filter:nth-child(3) {
     display: none;
 }
-/* ---- Due date labels ---- */
 
-#content ul.items .task_item .div_due_date span {
-    padding: 1px 4px;
-    border-radius: 2px;
-    border: 0px none !important;
-    color: #485e55;
-}
-#content ul.items .task_item .div_due_date .date_future {
-    background-color: #F0DE7D;
-}
-#content ul.items .task_item .div_due_date .date_overdue {
-    background-color: #db4641;
-    color: white;
-}
-#content ul.items .task_item .div_due_date .date_today {
-    background-color: #268bd2;
-    color: white;
-}
-/* ----- Project titles ----- */
+/* make top menu items (inbox, favourites) smaller */
 
-#content h2 * {
-    font-family: sans-serif;
+.favorite_item{
+    padding: 0!important;
 }
-#content h2 .h2_date {
-    font-style: italic;
-}
-#content h2.project_header * {
-    color: #073642 !important;
-    font-size: 1.3rem;
-}
-#content ul.items .task_item {
-    margin: 0rem;
-    border: 1px solid transparent;
-    padding: 1px;
-    opacity: 0.9;
-}
-/* ---- Less space ---- */
 
-.section_day {
-    margin-bottom: 1px!important;
+#filter_inbox{
+    padding: 0!important;
 }
-.project_header {
-    padding-bottom: 1px!important
+
+
+
+/* make side menu items smaller */
+
+.td_color {
+    min-width: 0!important;
+    padding: 0!important;
 }
-.section_header {
-    padding: 0 0 1px!important
+
+#projects_list .project::before, #projects_archived_ul .project::before, #ist_complete_result .project::before  {
+    margin: 0 0 3px 0!important;
 }
-#editor .items li {
-    padding: 0 1px
+
+.menu_clickable div.drag_and_drop_handler,.FilterListItemSortable .dnd_handle {
+    padding: 0 0 0 0!important;
+    margin-top: -3px!important;
 }
-.invisible_space {
-    width: 12px;
-    margin-left: -12px
+
+
+
+#labels_list .td_color, #filters_list .td_color {
+    padding: 0 0 0 0!important;
+    margin:-5px!important;
 }
-.task_item td,
-#agenda_view .checker,
-#agenda_view .column_project {
-    padding-top: 1px;
-    padding-bottom: 1px
+
+
+.generic_left_list .arrow {
+    margin-top: -2px!important;
 }
-.agenda_checker,
-.checker {
-    padding-right: 7px
+
+.task_item .arrow {
+    margin-top: -2px!important;
 }
-.note_icon {
-    padding: 1px
+
+.menu {
+    padding:0!important;
 }
+
+
+.name {
+    line-height: 18px!important;
+    padding:0!important;
+}
+
 .task_item td.menu {
     padding-top: 1px!important;
     padding-bottom: 1px!important
 }
-.task_item .task_content_item {
-    font-size: 14px
-}
-.drag_and_drop_handler {
-    margin-left: -15px;
-    padding-top: 0
-}
-.project_editor_instance {
-    margin-bottom: 0px;
-    padding-bottom: 0px
-}
-#editor .controller {
-    padding: 5px
-}
-.controller.actions.pe_controller {
-    padding-top: 0 !important;
-    padding-bottom: 0!important
-}
-#editor .action_add_item,
-.add_task,
-.agenda_add_task {
-    line-height: 1.2em!important;
-    height: 1.2em!important;
-    visibility: hidden;
-}
-.current_editor .action_add_item {
-    visibility: visible!important;
-}
-.history_icon {
-    margin-top: 0!important;
-}
-#agenda_view ul {
-    margin-bottom: 0!important
-}
-#agenda_view .day_holder {
-    margin-bottom: 0!important
-}
-#top_filters {
-    margin: 0;
-    padding: 0;
-}
-#left_menu_tabs {
-    margin-top: 5pt;
-}
-.history_ {
-    margin-top: 0!important
-}
-a.action .icon,
-a.action .icon:hover {
-    font-size: 8px
-}
-.generic_left_list li table td {
-    padding: 1px!important
-}
-.generic_left_list .drag_and_drop_handler {
-    padding-top: 0
-}
-.generic_left_list .arrow {
-    margin-top: 0
-}
-.drag_and_drop_handler.extra_arrow_marigin {
-    margin-left: -38px
-}
-#agenda_view .project {
-    padding-top: 1px;
-    padding-bottom: 1px
-}
-#agenda_view .view_header {
-    margin: 0 0 10px
-}
-#agenda_view .day_holder,
-#agenda_view .section_overdue {
-    margin-bottom: 15px
-}
-.subsection_header {
-    border-bottom: 0
-}
-#editor .arrow,
-#editor .drag_and_drop_handler {
-    margin-top: 1px
-}
-/* no line wrap for project names */
 
-#project_list_holder .name span {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block
+.panel_summary {
+   padding:3px 0px 3px 0px !important;
 }
-/* counter is right-aligned for projects */
 
-#project_list_holder .name .counter_count {
-    float: right;
+.adder_icon {
+    padding:6px 0 0 0!important;
 }
-/* hide context menu icon for projects */
 
-#project_list_holder .items .icon {
-    width: 0!important;
+div.panel_summary__icon {
+    padding:0!important;
+    margin:0!important;
 }
+
 /* decrease the indentation */
+
+#top_filters{
+    padding: 0!important;
+}
 
 .generic_left_list .indent_2 {
     padding-left: 15px !important;
@@ -187,72 +91,60 @@ a.action .icon:hover {
 .generic_left_list .indent_4 {
     padding-left: 45px !important;
 }
-/* adjust size of indented project names */
 
-.generic_left_list .indent_1 .name span {
-    width: 202px;
-}
-.generic_left_list .indent_2 .name span {
-    width: 187px;
-}
-.generic_left_list .indent_3 .name span {
-    width: 172px;
-}
-.generic_left_list .indent_4 .name span {
-    width: 157px;
-}
-/* make side menu items smaller */
 
-.name {
-    line-height: 18px!important;
-}
-/* make the side menu wider */
+/* compact tasks */
 
-#left_menu {
-    width: 260px!important;
-    padding-left: 25px;
-}
-#list_holder {
-    width: 250px!important;
-}
-/* remove spacing between color icon and menu items */
 
-.td_separator {
-    width: 0!important;
-    padding: 0!important;
-}
-.td_color {
-    min-width: 0!important;
-}
-/* hide inspiration ("enjoy your day.") message */
-
-.inspiration {
-    display: none
-}
-.completed_today_holder {
-    display: none;
-}
-/* hide today and 7 day view */
-/*
-#top_filters .filter {
-    display: none
+.task_item div.drag_and_drop_handler {
+    padding: 0 0 0 0!important;
+    margin-top: -9px!important;
 }
 
-#filter_inbox {
-    display:inherit !important
-}*/
-/* right menu */
-/*
-#right_menu {
- top:60pt;
- position: fixed;
- margin-left:730pt;
+.task_content_item {
+    padding:0!important;
 }
 
-#filters_list_holder {
-  display:inline!important;
+.sel_checkbox_td {
+    padding:0 5px 0 0!important;
 }
 
-#labels_list_holder {
-  display:inline!important;
-}*/
+#editor {
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
+}
+
+.section_overdue {
+    margin-bottom:5px!important;
+}
+
+.section_day {
+    margin-bottom:5px!important;
+}
+
+#agenda_view .section_separator, .section_separator, #agenda_view ul, .project_editor_instance{
+    margin-bottom:5px!important;
+}
+
+/* hide add task */
+#editor .action_add_item,
+.add_task,
+.agenda_add_task {
+    line-height: 1.2em!important;
+    height: 1.2em!important;
+    visibility: hidden;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#todoist_app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
