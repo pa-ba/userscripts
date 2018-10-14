@@ -20,7 +20,7 @@
 
 .td_color {
     min-width: 0!important;
-    padding: 0!important;
+    padding: 0 2px 0 0!important;
 }
 
 #projects_list .project::before, #projects_archived_ul .project::before, #ist_complete_result .project::before  {
@@ -29,19 +29,19 @@
 
 .menu_clickable div.drag_and_drop_handler,.FilterListItemSortable .dnd_handle {
     padding: 0 0 0 0!important;
-    margin-top: -3px!important;
+    margin-top: -4px!important;
 }
 
 
 
 #labels_list .td_color, #filters_list .td_color {
     padding: 0 0 0 0!important;
-    margin:-5px!important;
 }
 
 
 .generic_left_list .arrow {
-    margin-top: -2px!important;
+    margin-top: -4px!important;
+    padding: 0!important;
 }
 
 .task_item .arrow {
