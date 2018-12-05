@@ -101,7 +101,7 @@ div.panel_summary__icon {
     margin-top: -9px!important;
 }
 
-.task_content_item {
+.task_content_item, .td_due_date {
     padding:0!important;
 }
 
