@@ -128,12 +128,20 @@ div.panel_summary__icon {
     margin-bottom:5px!important;
 }
 
+.project_history {
+    margin-top: 0 !important;
+}
+
+.section_list li {
+    padding-bottom: 0!important;
+}
+
 /* hide add task */
 #editor .action_add_item,
 .add_task,
 .agenda_add_task {
-    line-height: 1.2em!important;
-    height: 1.2em!important;
+    line-height: 0.2em!important;
+    height: 0.2em!important;
     visibility: hidden;
 }
 
