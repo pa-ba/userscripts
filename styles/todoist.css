@@ -106,7 +106,9 @@ div.panel_summary__icon {
 }
 
 .sel_checkbox_td {
-    padding:0 5px 0 0!important;
+    padding-right:5px !important;
+    padding-top:0 !important;
+    padding-bottom:0 !important;
 }
 
 #editor {
