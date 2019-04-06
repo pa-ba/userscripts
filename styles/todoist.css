@@ -14,7 +14,18 @@
     padding: 0!important;
 }
 
+h2.section_header>a{
+    color:#aaaaff !important;
+}
 
+h2.section_header {
+    color:#aaffaa !important;
+}
+
+#agenda_view h2.section_header {
+    padding-top:5pt !important;
+    padding-bottom:5pt !important;
+}
 
 /* make side menu items smaller */
 
