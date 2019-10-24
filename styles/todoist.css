@@ -43,7 +43,13 @@ h2.section_header {
     margin-top: -4px!important;
 }
 
-
+.section_head_holder>.drag_and_drop_handler.drag_and_drop_handler {
+    padding: 0 0 0 0!important;
+    margin-top: 0px!important;
+}
+.section_head .collapser {
+    top: 5px;
+}
 
 #labels_list .td_color, #filters_list .td_color {
     padding: 0 0 0 0!important;
@@ -107,6 +113,21 @@ div.panel_summary__icon {
 /* compact tasks */
 
 
+.task_item_details {
+    padding: 0pt 0 !important;
+}
+.section_head {
+    padding: 2pt 0 !important;    
+}
+
+.section_list>li {
+    margin-bottom: 0!important;
+}
+
+.task_item_actions {
+    padding-top: 0!important;
+}
+
 .task_item div.drag_and_drop_handler {
     padding: 0 0 0 0!important;
     margin-top: -9px!important;
@@ -118,7 +139,7 @@ div.panel_summary__icon {
 
 .sel_checkbox_td {
     padding-right:5px !important;
-    padding-top:0 !important;
+    padding-top:3px !important;
     padding-bottom:0 !important;
 }
 
