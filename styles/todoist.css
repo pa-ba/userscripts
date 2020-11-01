@@ -1,6 +1,90 @@
+/* less height for individual tasks */
+
+.task_list_item .task_checkbox {
+    margin-top: 0px !important;
+}
+
+.task_list_item__content {
+    padding: 0px 0px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    margin-right: 0px !important;
+}
+
+.task_content {
+    line-height: 25px !important;
+}
+
+.task_list_item__info_tags {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    margin-right: 0px !important;
+}
+
+.date {
+    margin-right: 0px !important;
+}
+
+.task_list_item__actions {
+    margin-top: 0px !important;
+    margin-right: 150px !important;
+    padding: 0px 0px !important;
+}
+
+.project_item__name {
+    padding: 3px 2px 0px 0px;
+}
+
+#agenda_view .section_day, #agenda_view .section_overdue {
+    margin-bottom: 0px !important;
+}
+
+ul.items.day_list.ul_today.is_filtered {
+    margin-bottom: 10px !important;
+}
+
+ul.section_list>li {
+	padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.view_header {
+    margin-bottom: 0px !important;
+    border-top: 10px #555555 !important;
+}
+
+.section {
+    margin-bottom: 10px !important;
+}    
+
+.section h2, .section h2 a {
+    padding-top: 10px !important;
+    padding-bottom: 2px !important;
+}
+
+.subsection_header__date {
+    font-size: 15px !important; 
+}
+
+div.project_editor_instance {
+    margin-bottom: 0px !important;
+}
+
+
+.task_list_item__overflow_actions {
+    top:0px !important;
+}
+
+/* hide add button */
+
+.full_width_actions {
+    display: none;
+}
+
 /* hide today and 7 days view */
 
-#top_filters li.filter:nth-child(2), #top_filters li.filter:nth-child(3) {
+#top_filters li.filter:nth-child(2) {
     display: none;
 }
 
@@ -10,21 +94,8 @@
     padding: 0!important;
 }
 
-#filter_inbox{
+#filter_inbox, #filter_upcoming{
     padding: 0!important;
-}
-
-h2.section_header>a{
-    color:#aaaaff !important;
-}
-
-h2.section_header {
-    color:#aaffaa !important;
-}
-
-#agenda_view h2.section_header {
-    padding-top:5pt !important;
-    padding-bottom:5pt !important;
 }
 
 /* make side menu items smaller */
@@ -38,7 +109,7 @@ h2.section_header {
     margin: 0 0 3px 0!important;
 }
 
-.menu_clickable div.drag_and_drop_handler,.FilterListItemSortable .dnd_handle {
+.menu_clickable div.drag_and_drop_handler,.FilterListItemSortable .dnd_handle , .LabelListItem .dnd_handle{
     padding: 0 0 0 0!important;
     margin-top: -4px!important;
 }
@@ -51,9 +122,6 @@ h2.section_header {
     top: 5px;
 }
 
-#labels_list .td_color, #filters_list .td_color {
-    padding: 0 0 0 0!important;
-}
 
 
 .generic_left_list .arrow {
@@ -75,107 +143,7 @@ h2.section_header {
     padding:0!important;
 }
 
-.task_item td.menu {
-    padding-top: 1px!important;
-    padding-bottom: 1px!important
-}
 
-.panel_summary {
-   padding:3px 0px 3px 0px !important;
-}
-
-.adder_icon {
-    padding:6px 0 0 0!important;
-}
-
-div.panel_summary__icon {
-    padding:0!important;
-    margin:0!important;
-}
-
-/* decrease the indentation */
-
-#top_filters{
-    padding: 0!important;
-}
-
-.generic_left_list .indent_2 {
-    padding-left: 15px !important;
-}
-.generic_left_list .indent_3 {
-    padding-left: 30px !important;
-}
-.generic_left_list .indent_4 {
-    padding-left: 45px !important;
-}
-
-
-/* compact tasks */
-
-
-.task_item_details {
-    padding: 0pt 0 !important;
-}
-.section_head {
-    padding: 2pt 0 !important;    
-}
-
-.section_list>li {
-    margin-bottom: 0!important;
-}
-
-.task_item_actions {
-    padding-top: 0!important;
-}
-
-.task_item div.drag_and_drop_handler {
-    padding: 0 0 0 0!important;
-    margin-top: -9px!important;
-}
-
-.task_content_item, .td_due_date {
-    padding:0!important;
-}
-
-.sel_checkbox_td {
-    padding-right:5px !important;
-    padding-top:3px !important;
-    padding-bottom:0 !important;
-}
-
-#editor {
-    padding-top: 50px!important;
-    padding-bottom: 50px!important;
-}
-
-.section_overdue {
-    margin-bottom:5px!important;
-}
-
-.section_day {
-    margin-bottom:5px!important;
-}
-
-#agenda_view .section_separator, .section_separator, #agenda_view ul, .project_editor_instance{
-    margin-bottom:5px!important;
-}
-
-.project_history {
-    margin-top: 0 !important;
-}
-
-.section_list li {
-    padding-bottom: 0!important;
-}
-
-/* hide add task */
-#editor .action_add_item,
-.add_task,
-.agenda_add_task {
-    line-height: 0.2em!important;
-    height: 0.2em!important;
-    visibility: hidden;
-}
 
 html, body {
     height: 100%;
