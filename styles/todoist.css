@@ -100,6 +100,13 @@ div.project_editor_instance {
 }
 
 /* make side menu items smaller */
+.SidebarListItem {
+    min-height: 18px!important;
+}
+.SidebarListItem__content {
+    padding:0!important;
+    line-height: 18px!important;
+}
 
 #left_menu.left_menu_project_iconongraphy .generic_left_list .name span.text, #left_menu.new_side_bar_design .generic_left_list .name span.text {
     width: calc(100% - 8px)!important;
