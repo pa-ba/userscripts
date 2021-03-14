@@ -100,6 +100,11 @@ div.project_editor_instance {
 
 /* make side menu items smaller */
 
+#left_menu.left_menu_project_iconongraphy .generic_left_list .name span.text, #left_menu.new_side_bar_design .generic_left_list .name span.text {
+    width: calc(100% - 8px)!important;
+    padding-left: 8px!important;
+}
+
 .td_color {
     min-width: 0!important;
     padding: 0 2px 0 0!important;
@@ -138,11 +143,10 @@ div.project_editor_instance {
 }
 
 
-.name {
+.name, .counter {
     line-height: 18px!important;
     padding:0!important;
 }
-
 
 
 html, body {
