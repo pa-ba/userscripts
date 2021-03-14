@@ -95,7 +95,8 @@ div.project_editor_instance {
 }
 
 #filter_inbox, #filter_upcoming{
-    padding: 0!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
 }
 
 /* make side menu items smaller */
@@ -127,8 +128,6 @@ div.project_editor_instance {
     top: 5px;
 }
 
-
-
 .generic_left_list .arrow {
     margin-top: -4px!important;
     padding: 0!important;
@@ -139,7 +138,8 @@ div.project_editor_instance {
 }
 
 .menu {
-    padding:0!important;
+    padding-bottom:0!important;
+    padding-top:0!important;
 }
 
 
